@@ -66,3 +66,15 @@ style="display: flow-root">
 </script>
 
 ```
+
+사진 업로드
+gif, png, jpg만 허용하고 input의 
+
+```java
+
+<label>사진 업로드</label>
+<div class="upload-file-btn" style="width: 140px">
+<input type="file" name="upfile" accept=".gif,.png,.jpg">
+</div>
+
+```
