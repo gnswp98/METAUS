@@ -126,3 +126,26 @@ DB에 FAQ가 없을경우 아코디언으로 예시 데이터
 </c:if>
 
 ```
+
+DB에 FAQ데이터가 있을 때
+
+```java
+<c:if test="${!empty list }">
+	<c:set var="i" value="1"/>
+	<c:forEach var="vo" items="${list }">
+		<div class="col-md-12 topic">
+			<div class="open">
+				<h6 class="question"
+				data-search-term="1. how does cloudify work?">${i}.
+				${vo.boardTitle}</h6>
+				<i class="fa fa-angle-down hidden-xs"></i>
+			</div>
+			<p class="answer" style="display: none;">
+			${vo.boardContent.substring(vo.boardContent.indexOf('>')+1,vo.boardContent.indexOf('</p>'))}
+			</p>
+		</div>
+		<c:set var="i" value="${i+1 }" />
+	</c:forEach>
+</c:if>
+
+```
