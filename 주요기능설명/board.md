@@ -181,4 +181,5 @@ DB에 FAQ데이터가 있을 때
 
 # QNA
 
+![공지사항- QNA](https://user-images.githubusercontent.com/105349816/182615450-3eb2e1a8-0319-4cc4-a237-a3663bc4b9d5.JPG)
 
