@@ -55,19 +55,19 @@
 ***
 # :bulb: 주요 기능 (소제목 클릭 시 상세 설명 이동)
 
-## [1. 시스템 접속 주요 기능](https://github.com/KimJinoook/metaus/blob/main/%EC%A3%BC%EC%9A%94%EA%B8%B0%EB%8A%A5%EC%84%A4%EB%AA%85/systemConnect.md)   
+## [1. 시스템 접속 주요 기능](https://github.com/gnswp98/METAUS/blob/main/%EC%A3%BC%EC%9A%94%EA%B8%B0%EB%8A%A5%EC%84%A4%EB%AA%85/systemConnect.md)   
    - 1. 비밀번호 암호화
    - 2. 이메일 인증
    
-## [2. 크리에이터 찾기 주요 기능](https://github.com/KimJinoook/metaus/blob/main/%EC%A3%BC%EC%9A%94%EA%B8%B0%EB%8A%A5%EC%84%A4%EB%AA%85/findCreate.md)   
+## [2. 크리에이터 찾기 주요 기능](https://github.com/gnswp98/METAUS/blob/main/%EC%A3%BC%EC%9A%94%EA%B8%B0%EB%8A%A5%EC%84%A4%EB%AA%85/findCreate.md)   
    - 1. 페이징 처리
    - 2. Three.js의 반복 처리
    - 3. ZipLoader 이용 압축파일 해제 없이 로딩   
 
-## [3. 기사 페이지의 크롤링](https://github.com/KimJinoook/metaus/blob/main/%EC%A3%BC%EC%9A%94%EA%B8%B0%EB%8A%A5%EC%84%A4%EB%AA%85/newsCrawling.md)   
+## [3. 기사 페이지의 크롤링](https://github.com/gnswp98/METAUS/blob/main/%EC%A3%BC%EC%9A%94%EA%B8%B0%EB%8A%A5%EC%84%A4%EB%AA%85/newsCrawling.md)   
    - 1. 기사 페이지 크롤링   
 
-## [4. 상품판매 페이지](https://github.com/KimJinoook/metaus/blob/main/%EC%A3%BC%EC%9A%94%EA%B8%B0%EB%8A%A5%EC%84%A4%EB%AA%85/pay.md)
+## [4. 상품판매 페이지](https://github.com/gnswp98/METAUS/blob/main/%EC%A3%BC%EC%9A%94%EA%B8%B0%EB%8A%A5%EC%84%A4%EB%AA%85/pay.md)
    - 1. 결제 및 상품 구매 처리
    - 2. 구매 상품 파일 다운로드
 
