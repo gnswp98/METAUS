@@ -89,3 +89,5 @@
 ## [6. 글 작성 페이지](https://github.com/gnswp98/METAUS/blob/main/%EC%A3%BC%EC%9A%94%EA%B8%B0%EB%8A%A5%EC%84%A4%EB%AA%85/write.md)
    - 1. 글 내용 작성에 CK에디터 사용
    - 2. 사진 업로드
+
+## [7. 글 수정 페이지](https://github.com/gnswp98/METAUS/blob/main/%EC%A3%BC%EC%9A%94%EA%B8%B0%EB%8A%A5%EC%84%A4%EB%AA%85/update.md)
