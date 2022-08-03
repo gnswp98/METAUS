@@ -92,3 +92,6 @@
 ## [8. 회원 정보 수정](https://github.com/gnswp98/METAUS/blob/main/%EC%A3%BC%EC%9A%94%EA%B8%B0%EB%8A%A5%EC%84%A4%EB%AA%85/memUpdate.md)
    - 1. 개인 회원
    - 2. 기업 회원
+
+## [9. 푸터](https://github.com/gnswp98/METAUS/blob/main/%EC%A3%BC%EC%9A%94%EA%B8%B0%EB%8A%A5%EC%84%A4%EB%AA%85/footer.md)
+   - 1. 카카오맵 API
