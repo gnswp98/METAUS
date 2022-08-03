@@ -23,6 +23,7 @@
 게시판 <select> 태그 코드
 
 ```java
+	
 <label for="search-categories">게시판 종류</label> <select
 							name="search-categories" class="selectpicker"
 							id="search-categories" data-live-search="true"
@@ -45,4 +46,5 @@
 								<c:if test="${param.btypeNo==7 }">selected="selected"</c:if>>개인의뢰
 								게시판</option>
 </select>
+
 ```
