@@ -65,11 +65,7 @@
 ## [3. 기사 페이지의 크롤링](https://github.com/gnswp98/METAUS/blob/main/%EC%A3%BC%EC%9A%94%EA%B8%B0%EB%8A%A5%EC%84%A4%EB%AA%85/newsCrawling.md)   
    - 1. 기사 페이지 크롤링   
 
-## [4. 상품판매 페이지](https://github.com/gnswp98/METAUS/blob/main/%EC%A3%BC%EC%9A%94%EA%B8%B0%EB%8A%A5%EC%84%A4%EB%AA%85/pay.md)
-   - 1. 결제 및 상품 구매 처리
-   - 2. 구매 상품 파일 다운로드
-
-## 5. 커뮤니티 페이지
+## 4. 커뮤니티 페이지
    - [[1] 공지사항](https://github.com/gnswp98/METAUS/blob/main/%EC%A3%BC%EC%9A%94%EA%B8%B0%EB%8A%A5%EC%84%A4%EB%AA%85/notice.md)
    - 1. 공지사항
    - 2. FAQ
@@ -82,17 +78,17 @@
 
    - [[3] 실시간 채팅](https://github.com/gnswp98/METAUS/blob/main/%EC%A3%BC%EC%9A%94%EA%B8%B0%EB%8A%A5%EC%84%A4%EB%AA%85/chatting.md)
    
-## [6. 글 작성 페이지](https://github.com/gnswp98/METAUS/blob/main/%EC%A3%BC%EC%9A%94%EA%B8%B0%EB%8A%A5%EC%84%A4%EB%AA%85/write.md)
+## [5. 글 작성 페이지](https://github.com/gnswp98/METAUS/blob/main/%EC%A3%BC%EC%9A%94%EA%B8%B0%EB%8A%A5%EC%84%A4%EB%AA%85/write.md)
    - 1. 글 내용 작성에 CK에디터 사용
    - 2. 사진 업로드
 
-## [7. 글 수정 페이지](https://github.com/gnswp98/METAUS/blob/main/%EC%A3%BC%EC%9A%94%EA%B8%B0%EB%8A%A5%EC%84%A4%EB%AA%85/update.md)
+## [6. 글 수정 페이지](https://github.com/gnswp98/METAUS/blob/main/%EC%A3%BC%EC%9A%94%EA%B8%B0%EB%8A%A5%EC%84%A4%EB%AA%85/update.md)
    - 1. GET방식
    - 2. POST방식
    
-## [8. 글 삭제](https://github.com/gnswp98/METAUS/blob/main/%EC%A3%BC%EC%9A%94%EA%B8%B0%EB%8A%A5%EC%84%A4%EB%AA%85/delete.md)
+## [7. 글 삭제](https://github.com/gnswp98/METAUS/blob/main/%EC%A3%BC%EC%9A%94%EA%B8%B0%EB%8A%A5%EC%84%A4%EB%AA%85/delete.md)
    - 1. 글 삭제 여부 확인
    
-## [9. 회원 정보 수정](https://github.com/gnswp98/METAUS/blob/main/%EC%A3%BC%EC%9A%94%EA%B8%B0%EB%8A%A5%EC%84%A4%EB%AA%85/memUpdate.md)
+## [8. 회원 정보 수정](https://github.com/gnswp98/METAUS/blob/main/%EC%A3%BC%EC%9A%94%EA%B8%B0%EB%8A%A5%EC%84%A4%EB%AA%85/memUpdate.md)
    - 1. 개인 회원
    - 2. 기업 회원
