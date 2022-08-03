@@ -73,8 +73,8 @@
    - 1. 결제 및 상품 구매 처리
    - 2. 구매 상품 파일 다운로드
 
-## [5. 커뮤니티 페이지](https://github.com/gnswp98/METAUS/blob/main/%EC%A3%BC%EC%9A%94%EA%B8%B0%EB%8A%A5%EC%84%A4%EB%AA%85/board.md)
-   - [1] 공지사항
+## 5. 커뮤니티 페이지
+   - [1] [공지사항](https://github.com/gnswp98/METAUS/blob/main/%EC%A3%BC%EC%9A%94%EA%B8%B0%EB%8A%A5%EC%84%A4%EB%AA%85/notice.md)
    - 1. 공지사항
    - 2. FAQ
    - 3. QNA
