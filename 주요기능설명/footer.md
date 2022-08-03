@@ -2,6 +2,10 @@
  - 1. 카카오맵 API
 ***
 
+![푸터](https://user-images.githubusercontent.com/105349816/182635787-768079da-03ac-49a8-83de-c5675d7e6c08.JPG)
+
+***
+
 metaus로고와 대표자 정보
 
 ```java
