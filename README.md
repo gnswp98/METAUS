@@ -87,3 +87,7 @@
    - 2. 사진 업로드
 
 ## [7. 글 수정 페이지](https://github.com/gnswp98/METAUS/blob/main/%EC%A3%BC%EC%9A%94%EA%B8%B0%EB%8A%A5%EC%84%A4%EB%AA%85/update.md)
+   - 1. GET방식
+   - 2. POST방식
+   
+## [8. 글 삭제](https://github.com/gnswp98/METAUS/blob/main/%EC%A3%BC%EC%9A%94%EA%B8%B0%EB%8A%A5%EC%84%A4%EB%AA%85/delete.md)
