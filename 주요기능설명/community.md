@@ -6,3 +6,7 @@
 - 3. 정보/공유 게시판
 
 ***
+
+# 자유 게시판
+
+![커뮤니티- 자유게시판](https://user-images.githubusercontent.com/105349816/182617320-511f851b-1a3b-4f6e-ba69-f51245eb29b1.JPG)
