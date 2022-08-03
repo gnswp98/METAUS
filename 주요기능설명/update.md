@@ -6,6 +6,33 @@
 
 ***
 
+글 수정, 삭제는 본인만 할 수 있음
+세션에 로그인 돼어있는 Id(memName)와 글을 작성한 Id(memName2)를 비교하여 버튼생성 여부 확인
+
+```java
+
+<c:if test="${memName == memName2 }">
+	<div>
+		<a
+		href="<c:url value='/board/boardUpdate?boardNo=${vo.boardNo }&bfileNo=${AtcVo.bfileNo}'/>">
+			<button class="btn btn-large btn-blue btn-effect mt30"
+			id="writeBoard">수정</button>
+		</a>
+		<form id="boardDelete"
+		action="<c:url value='/board/boardDelete'/>"
+		style="display: inline-block;">
+			<input type="hidden" name="boardNo" value="${vo.boardNo }">
+			<input type="hidden" name="btypeNo" value="${vo.btypeNo }">
+			<button class="btn btn-large btn-blue btn-effect mt30"
+			id="boardDeleteBt" type="button">삭제</button>
+		</form>
+	</div>
+</c:if>
+
+```
+
+***
+
 # 컨트롤러
 
 페이지를 보여주는 컨트롤러 get방식
