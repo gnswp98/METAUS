@@ -103,4 +103,8 @@ __# 커뮤니티 페이지
 			<!-- End of Blog Posts -->
 
 ```
-__
+
+
+# FAQ
+
+![공지사항- FAQ](https://user-images.githubusercontent.com/105349816/182613515-55960c91-e3dc-4ab3-894b-4a835a60e5eb.JPG)
