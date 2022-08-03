@@ -24,27 +24,29 @@
 
 ```java
 	
-<label for="search-categories">게시판 종류</label> <select
-							name="search-categories" class="selectpicker"
-							id="search-categories" data-live-search="true"
-							title="게시판을 선택해주세요" data-size="5" data-container="body"
-							style="display: flow-root">
+<label for="search-categories">게시판 종류</label> 
+<select
+name="search-categories" class="selectpicker"
+id="search-categories" data-live-search="true"
+title="게시판을 선택해주세요" data-size="5" data-container="body"
+style="display: flow-root">
 
-							<option value="3"
-								<c:if test="${param.btypeNo==3 }">selected="selected"</c:if>>QNA
-								게시판</option>
-							<option value="8"
-								<c:if test="${param.btypeNo==8 }">selected="selected"</c:if>>자유
-								게시판</option>
-							<option value="5"
-								<c:if test="${param.btypeNo==5 }">selected="selected"</c:if>>질문
-								게시판</option>
-							<option value="6"
-								<c:if test="${param.btypeNo==6 }">selected="selected"</c:if>>공유/정보
-								게시판</option>
-							<option value="7"
-								<c:if test="${param.btypeNo==7 }">selected="selected"</c:if>>개인의뢰
-								게시판</option>
+	<option value="3"
+		<c:if test="${param.btypeNo==3 }">selected="selected"</c:if>>QNA
+		게시판</option>
+	<option value="8"
+		<c:if test="${param.btypeNo==8 }">selected="selected"</c:if>>자유
+		게시판</option>
+	<option value="5"
+		<c:if test="${param.btypeNo==5 }">selected="selected"</c:if>>질문
+		게시판</option>
+	<option value="6"
+		<c:if test="${param.btypeNo==6 }">selected="selected"</c:if>>공유/정보
+		게시판</option>
+	<option value="7"
+		<c:if test="${param.btypeNo==7 }">selected="selected"</c:if>>개인의뢰
+		게시판</option>
+	
 </select>
 
 ```
