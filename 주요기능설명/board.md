@@ -17,6 +17,35 @@
 
 ***
 
+모든 게시판은 로그인 후 작성 가능 및 공지사항과 FAQ는 관리자가 작성가능 기사는 크롤링으로 가져옴
+
+현재 게시판의 페이지와 현제 세션에 로그인 돼어있는 Id를 가져와서 작성가능 여부 확인 코드
+```java
+
+<script type="text/javascript">
+	function boardList(curPage){
+		$('input[name=currentPage]').val(curPage);
+		$('form[name=frmPage]').submit();
+	}
+	
+	$(function(){
+		$('#writeBoard').click(function(){
+			if($('#memId').val()=="" || $('#memId').val()==null){
+				alert('로그인 후 이용가능합니다!');
+				event.preventDefault();
+			}else{
+				location.href="<c:url value='/board/boardWrite?btypeNo=3'/>";
+				return false;
+			}
+		});
+	});
+	
+</script>
+
+```
+
+
+
 # 공지사항
 
 ![공지사항- 공지사항](https://user-images.githubusercontent.com/105349816/182611330-c00142bb-fdf7-444b-b8a7-71742f5236a9.JPG)
@@ -149,3 +178,7 @@ DB에 FAQ데이터가 있을 때
 </c:if>
 
 ```
+
+# QNA
+
+
