@@ -107,3 +107,127 @@ function validate_userid(id) {
 	}
 
 ```
+
+***
+
+# 기업회원
+
+![기업회원 정보수정](https://user-images.githubusercontent.com/105349816/182634864-18e1e611-10a9-4008-a763-57bab1472657.JPG)
+
+사업자 등록번호 확인
+
+```java
+
+/** 기업회원 사업자 등록번호 확인 */
+		$('#comRrnCheck').click(function(){
+			
+			if ($.trim($('#comCeo').val()).length < 1) {
+				alert("대표자명을 입력해주세요.");
+				$('#comCeo').focus();
+				event.preventDefault();
+
+			}else if ($.trim($('#comRrn').val()).length < 1) {
+				alert("사업자 등록번호를 입력해주세요.");
+				$('#comRrn').focus();
+				event.preventDefault();
+
+			}else if ($.trim($('#comOpen').val()).length < 1) {
+				alert("개업일 입력해주세요.");
+				$('#comOpen').focus();
+				event.preventDefault();
+
+			}else if(!validate_tel($('#comRrn').val())){
+				alert("사업자 등록번호는 숫자만 입력해주세요.");
+				$('#comRrn').focus();
+				event.preventDefault();				
+			}else if(!validate_tel($('#comOpen').val())){
+				alert("개업일 숫자만 입력해주세요.");
+				$('#comOpen').focus();
+				event.preventDefault();				
+			}  else{
+				var name = $('#comCeo').val();
+				var open = $('#comOpen').val();
+				
+				var rrn = $('#comRrn').val();
+				var data = {
+						"b_no" : [rrn]
+				};
+				
+				var data2 = {
+						"businesses": [
+						    {
+						      "b_no": rrn,
+						      "start_dt": open,
+						      "p_nm": name
+						    }
+						  ]
+				}
+
+				$.ajax({
+					url: "https://api.odcloud.kr/api/nts-businessman/v1/validate?serviceKey=aKSHxC3JN3xtPxQP64ysM2CE9UhYKMLXVKM9w7aL7WiHH6dYWKgG%2FJaYTvF0O82Dawkq6c%2ByK0ByxSovTdkXHw%3D%3D",
+					type:"POST",
+					data: JSON.stringify(data2),
+					dataType: "JSON",
+					contentType: "application/json",
+					
+					async:false,
+					success: function(result) {
+					      if(result.data[0].valid=='02'){
+					    	  alert('사업자 정보가 일치하지 않습니다.');
+					      }else if(result.data[0].valid=='01'){
+					    	  alert('사업자 정보가 확인되었습니다');
+					    	  $('#isComRrnCheck').val('Y');
+					      }
+					  },
+					  error: function(result) {
+					      alert('사업자 정보 확인에 실패했습니다.');
+					  }
+				});
+				event.preventDefault();	
+			}
+			
+		});
+
+```
+
+기업회원 주소 위도 경도
+
+```java
+
+/** 기업회원 우편번호 찾기 */
+	function execDaumPostcode2() {
+	    daum.postcode.load(function(){
+	        new daum.Postcode({
+	            oncomplete: function(data) {
+	              $("#comAdd").val(data.roadAddress);
+	              mapsearch();
+	            }
+	        }).open();
+	    });
+	}
+	
+/** 기업 주소 위도경도로 변환*/
+	function mapsearch(){
+		var address = $('#comAdd').val();
+		var geocoder2 = new kakao.maps.services.Geocoder();
+		geocoder2.addressSearch(address, function(result, status) {
+
+		    // 정상적으로 검색이 완료됐으면 
+		     if (status === kakao.maps.services.Status.OK) {
+
+		        
+		        $('#comLati').val(result[0].y);
+		    	$('#comLongi').val(result[0].x);
+		    } 
+		});	
+	}
+	
+/**기업회원 주소찾기*/
+	$('#comAdd').click(function(){
+		execDaumPostcode2();
+			
+	});
+
+```
+
+***
