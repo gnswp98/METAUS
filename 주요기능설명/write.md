@@ -50,3 +50,19 @@ style="display: flow-root">
 </select>
 
 ```
+
+글 내용 부분 CK에디터 사용
+
+```java
+
+<label>글 내용</label>
+<textarea name="boardContent" id="editor"></textarea>
+<script src="https://cdn.ckeditor.com/ckeditor5/34.0.0/classic/ckeditor.js"></script>
+<script src="https://cdn.ckeditor.com/ckeditor5/34.0.0/classic/translations/ko.js"></script>
+<script>
+	ClassicEditor.create( document.querySelector( '#editor' ), {
+		language: "ko"
+	});
+</script>
+
+```
