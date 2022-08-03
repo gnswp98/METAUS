@@ -9,6 +9,8 @@
 글 수정, 삭제는 본인만 할 수 있음
 세션에 로그인 돼어있는 Id(memName)와 글을 작성한 Id(memName2)를 비교하여 버튼생성 여부 확인
 
+![수정 삭제 버튼](https://user-images.githubusercontent.com/105349816/182631295-f9d16a3f-8c72-4a40-b8c5-3a6f24313339.JPG)
+
 ```java
 
 <c:if test="${memName == memName2 }">
