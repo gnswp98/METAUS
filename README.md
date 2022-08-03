@@ -85,3 +85,5 @@
    - 3. 공유/정보 게시판
 
    - [[3] 실시간 채팅](https://github.com/gnswp98/METAUS/blob/main/%EC%A3%BC%EC%9A%94%EA%B8%B0%EB%8A%A5%EC%84%A4%EB%AA%85/chatting.md)
+   
+## [6. 글 작성 페이지](https://github.com/gnswp98/METAUS/blob/main/%EC%A3%BC%EC%9A%94%EA%B8%B0%EB%8A%A5%EC%84%A4%EB%AA%85/.md)
