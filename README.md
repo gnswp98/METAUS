@@ -58,8 +58,6 @@
 ## [1. 시스템 접속 주요 기능](https://github.com/KimJinoook/metaus/blob/main/%EC%A3%BC%EC%9A%94%EA%B8%B0%EB%8A%A5%EC%84%A4%EB%AA%85/systemConnect.md)   
    - 1. 비밀번호 암호화
    - 2. 이메일 인증
-   - 3. 소셜로그인 (카카오)
-   - 4. 소셜로그인 후처리 (로그인 혹은 기존 계정 연동, 회원가입)   
    
 ## [2. 크리에이터 찾기 주요 기능](https://github.com/KimJinoook/metaus/blob/main/%EC%A3%BC%EC%9A%94%EA%B8%B0%EB%8A%A5%EC%84%A4%EB%AA%85/findCreate.md)   
    - 1. 페이징 처리
