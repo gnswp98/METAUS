@@ -1,4 +1,4 @@
-__# 커뮤니티 페이지
+___# 커뮤니티 페이지
 [1] 공지사항
 
 - 1. 공지사항
@@ -108,3 +108,21 @@ __# 커뮤니티 페이지
 # FAQ
 
 ![공지사항- FAQ](https://user-images.githubusercontent.com/105349816/182613515-55960c91-e3dc-4ab3-894b-4a835a60e5eb.JPG)
+
+DB에 FAQ가 없을경우 아코디언으로 예시 데이터 
+
+```java
+
+<c:if test="${empty list }">
+	<div class="col-md-12 topic">
+		<div class="open">
+			<h6 class="question"
+			data-search-term="1. how does cloudify work?">준비 중 입니다.</h6>
+			<i class="fa fa-angle-down hidden-xs"></i>
+		</div>
+
+		<p class="answer" style="display: none;">이용에 불편을 드려서 죄송합니다.</p>
+	</div>
+</c:if>
+
+```
