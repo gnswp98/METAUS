@@ -68,7 +68,7 @@ style="display: flow-root">
 ```
 
 사진 업로드
-gif, png, jpg만 허용하고 input의 
+gif, png, jpg만 허용하고 input의 type=file 사용
 
 ```java
 
